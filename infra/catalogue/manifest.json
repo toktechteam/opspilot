@@ -1,0 +1,40 @@
+{
+  "deployments": [
+    {
+      "files": [
+        "infra/environments/demo/opspilot-s3/s3/backend.tf",
+        "infra/environments/demo/opspilot-s3/s3/main.tf",
+        "infra/environments/demo/opspilot-s3/s3/outputs.tf",
+        "infra/environments/demo/opspilot-s3/s3/providers.tf",
+        "infra/environments/demo/opspilot-s3/s3/terraform.tfvars.example",
+        "infra/environments/demo/opspilot-s3/s3/variables.tf",
+        "infra/environments/demo/opspilot-s3/s3/versions.tf",
+        "infra/modules/s3-859e38fa/main.tf",
+        "infra/modules/s3-859e38fa/outputs.tf",
+        "infra/modules/s3-859e38fa/variables.tf",
+        "infra/modules/s3-859e38fa/versions.tf"
+      ],
+      "fingerprint": "724029411c51f20449e50a369b5437fce75b0efdeaba5160a27e008726fe204c",
+      "generator_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "module_path": "infra/modules/s3-859e38fa",
+      "root_path": "infra/environments/demo/opspilot-s3/s3",
+      "workload_type": "s3"
+    }
+  ],
+  "modules": [
+    {
+      "fingerprint": "ec85e4c3a8d555c6a0f2f99d990b0fe7559a59e048b5b12d1d03e49cc65cf21b",
+      "generator_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "module_files": [
+        "infra/modules/s3-859e38fa/main.tf",
+        "infra/modules/s3-859e38fa/outputs.tf",
+        "infra/modules/s3-859e38fa/variables.tf",
+        "infra/modules/s3-859e38fa/versions.tf"
+      ],
+      "module_path": "infra/modules/s3-859e38fa",
+      "root_path": "infra/environments/demo/opspilot-s3/s3",
+      "workload_type": "s3"
+    }
+  ],
+  "schema_version": 1
+}

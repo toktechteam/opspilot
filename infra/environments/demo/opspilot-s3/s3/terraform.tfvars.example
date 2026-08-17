@@ -1,0 +1,17 @@
+aws_region  = "us-east-1"
+project_name = "opspilot-s3"
+environment  = "demo"
+owner        = "demo-owner"
+cost_centre  = "demo"
+expires_at   = "2026-09-18"
+deployment_id = "859e38fae714"
+
+encryption                        = "AES256"
+versioning                        = true
+block_public_access               = true
+lifecycle_expiration_days         = 90
+noncurrent_version_expiration_days = 30
+access_logging_bucket             = null
+kms_key_arn                       = null
+
+tags = {}
